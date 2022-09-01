@@ -1,0 +1,42 @@
+.container-wrap {
+  text-align: center;
+  margin: 0 auto;
+}
+body {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 69%,
+    rgba(204, 208, 202, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+img {
+  margin-bottom: 15px;
+}
+.container-wrap {
+  margin-top: 100px;
+}
+
+.btn-primary-color {
+  background-color: #415135;
+  color: #ffffff;
+  padding: 20px 30px;
+  margin-right: 15px;
+  box-shadow: 7px 14px 26px -8px rgba(0, 0, 0, 0.39);
+}
+.btn-secondary-color {
+  background-color: #e5e8e6;
+  padding: 20px 30px;
+  box-shadow: 7px 14px 26px -8px rgba(0, 0, 0, 0.39);
+}
+
+.img-shadow {
+  box-shadow: 7px 14px 26px -8px rgba(0, 0, 0, 0.39);
+}
+.links {
+  margin-right: 15px;
+}
